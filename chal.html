@@ -1,0 +1,259 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title> WEBSITE CHALLENGE </title>
+		<style type="text/css">
+			body{
+				font: 16px   calibri Sans-serif;
+				margin:10px 10px;
+				background: rgba(186, 212, 255, 0.5)
+			}
+
+			/*====entrance animations====*/
+
+			.right {
+				animation-name: fade-in;
+				animation-duration:2s;
+			}
+
+			.side-bar {
+				animation-name: fade-in;
+				animation-duration:2s;
+			}
+
+			@keyframes fade-in {
+				0% { 
+					opacity:0; 
+				}
+
+				100% {
+					opacity:1;
+				}
+			}
+
+
+			img {
+				width:300px;
+				height:150px;
+				transition: 0.5s all;
+			}
+
+			img:hover {
+				height:200px;
+				width:400px;
+			}
+
+			#ph1{
+				float:right;
+				height:205px;
+				margin:15px;
+			}
+
+			.img-grid {
+				display:flex;
+				flex-wrap:wrap;
+				justify-content: center;
+				margin-top:100px;
+			}
+
+			.img-grid > .grid {
+				margin:5px;
+			}
+
+			
+
+			#wrapper{
+				display:grid;
+				grid-template-columns:70% 30%; 
+				grid-gap:50px;
+			}
+
+			.side-bar{
+				
+				background: gold;
+				height:120vh;
+				width:26.5vw;
+				/*float:right;*/
+			}
+
+			.side-bar .box{
+				background: orange;
+				border: 2px solid rgb(70, 137, 244, 0.6);
+				margin: 5px;
+				padding:7px;
+				margin-left: 0px;
+				width:25vw;
+			}
+
+			.box > a {
+
+				text-decoration: none;
+				color:rgb(70, 137, 244)
+				transition: 0.5s color;
+			}
+
+			.box > a:hover {
+				color:rgb(186, 212, 255);
+			}
+
+		
+			/*====NOTES===*/
+			Primary font:Lato
+			Secondary font: Roboto Condensed
+
+			Dark Blue - rgb(70, 137, 244)
+			Light Blue - rgb(186, 212, 255)
+
+			'Bold' Orange - rgb(229, 158, 66)
+			Light Orange - rgb(255, 227, 191)
+
+			
+		</style>
+	</head>
+
+	<body>
+
+	<section id="wrapper">
+	<div class="right">
+		<h1 class="subtitle"> Welcome to this Challenge!!!</h1>
+
+		<p> Here is your list of objectives</p>
+
+		<ul>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+			<li> Layout the content & sidebar</li>
+		</ul>
+	
+		<p> Do not feel intimidated by these challenges, change or append anything you want.</p>
+
+	<div>
+		<h3 class="subtitle"> Subtitle One</h3>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		<img src="Sustainable-Materials-Branding-180x180.jpg" id="ph1">
+	</div>
+
+		<h3> Subtitle Two</h3>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+		</p>
+
+			<h3 class="subtitle"> Topic One</h3>
+		<ol>
+			<li> Content </li>
+			<li> Section </li>
+			<li> Main </li>
+			<li> Side-bar </li>
+			<li> Article </li>
+		</ol>
+	</div>
+
+		<div class="side-bar">
+			<div class="box">
+				<h5 class="post-title"> Post 1</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+		
+
+			<div class="box">
+				<h5 class="post-title"> Post 2</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+
+			<div class="box">
+				<h5 class="post-title"> Post 3</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+
+			<div class="box">
+				<h5 class="post-title"> Post 4</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+
+			<div class="box">
+				<h5 class="post-title"> Post 5</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+
+			<div class="box">
+				<h5 class="post-title"> Post 6</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+
+			<div class="box">
+				<h5 class="post-title"> Post 7</h5>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="">Lorem Ipsum me amor</a>
+			</div>
+		</div>
+
+		<div class="img-grid">
+			<div class="grid">
+				<img src="background.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="portfolio-1.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="portfolio-2.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="portfolio-3.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="portfolio-4.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="showcase.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="logo_brush.png">
+			</div>
+
+			<div class="grid">
+				<img src="logo_css.png">
+			</div>
+
+			<div class="grid">
+				<img src="logo_html.png">
+			</div>
+
+			<div class="grid">
+				<img src="team-img-01.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="team-img-02.jpg">
+			</div>
+
+			<div class="grid">
+				<img src="team-img-03.jpg">
+			</div>
+
+		
+	<div style="margin-top:500px"></div>
+	</section>
+	</body>
+	</html>
